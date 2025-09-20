@@ -4,10 +4,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="mt-16 flex flex-col items-center gap-8 md:gap-0 md:flex-row md:items-start justify-between bg-gray-800 p-8 rounded-lg">
+    <div className="mt-16 flex flex-col items-center md:flex-row md:items-start justify-between bg-gray-800 p-8 rounded-lg">
       <div className="flex flex-col gap-4 items-center md:items-start">
         <Link href="/" className="flex items-center">
-          <Image src="/hairlogo.png" alt="logo" width={49} height={50} />
+          <Image src="/hairlogo.png" alt="logo" width={40} height={50} />
           <p className="hidden md:block text-md font-bold tracking-wider text-white">
             NextCom
           </p>
@@ -18,25 +18,25 @@ export default function Footer() {
       <div className="flex flex-col gap-4 text-sm text-gray-400 items-center md:items-start">
         <p className="text-sm text-amber-50">links</p>
         <Link href="/">HomePage</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">Terms of Service</Link>
-        <Link href="/">Privacy Policy</Link>
+        <Link href="">COntact</Link>
+        <Link href="">Terms of Service</Link>
+        <Link href="">Privacy Policy</Link>
       </div>
 
       <div className="flex flex-col gap-4 text-sm text-gray-400 items-center md:items-start">
         <p className="text-sm text-amber-50">links</p>
-        <Link href="/">All Products</Link>
-        <Link href="/">New Arrivals</Link>
-        <Link href="/">Best Sellers</Link>
-        <Link href="/">Sales</Link>
+        <Link href="/">HomePage</Link>
+        <Link href="">COntact</Link>
+        <Link href="">Terms of Service</Link>
+        <Link href="">Privacy Policy</Link>
       </div>
 
       <div className="flex flex-col gap-4 text-sm text-gray-400 items-center md:items-start">
         <p className="text-sm text-amber-50">links</p>
-        <Link href="/">About</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">Blog</Link>
-        <Link href="/">Affiliate Program</Link>
+        <Link href="/">HomePage</Link>
+        <Link href="">COntact</Link>
+        <Link href="">Terms of Service</Link>
+        <Link href="">Privacy Policy</Link>
       </div>
     </div>
   );

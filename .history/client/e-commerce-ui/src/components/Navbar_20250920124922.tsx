@@ -12,8 +12,8 @@ export default function Navbar() {
         <Image
           src="/hairlogo.png"
           alt="logo"
-          width={40}
-          height={40}
+          width={36}
+          height={36}
           className="cursor-pointer w-6 h-6 md:w-9 md:h-9"
         />
         <p className="hidden md:block text-md font-bold tracking-wider">

@@ -55,6 +55,7 @@ const categories = [
 
 const Categories = () => {
   const searchParams = useSearchParams();
+  console.log("this is search params", searchParams);
   const router = useRouter();
   const pathname = usePathname();
 

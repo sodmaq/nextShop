@@ -26,7 +26,6 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <Home className="w-4 h-4 text-gray-500" />
           <Bell className="w-4 h-4 text-gray-500" />
-          <ShoppingCart className="w-4 h-4 text-gray-500" />
           <Link href="/login">Sign in</Link>
         </Link>
       </div>
